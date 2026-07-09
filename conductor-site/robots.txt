@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /
-
-# Update this once the real domain is live:
-# Sitemap: https://your-domain.com.au/sitemap.xml
