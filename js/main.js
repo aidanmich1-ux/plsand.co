@@ -22,7 +22,7 @@
   /* Annotation layer toggle, persisted for this session */
   var ANNOT_KEY = "pls_annotations_visible";
   var annotState = sessionStorage.getItem(ANNOT_KEY);
-  var showAnnotations = annotState === null ? true : annotState === "true";
+  var showAnnotations = annotState === null ? true : annotState === "false";
 
   function applyAnnotState(){
     document.documentElement.classList.toggle("annotations-off", !showAnnotations);
